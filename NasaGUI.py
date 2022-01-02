@@ -59,7 +59,7 @@ class MainWindow(QMainWindow):
         self.label = QLabel(self)
         self.pixmap = QPixmap('Resources\sample.jpg')
         #self.pixmap.scaled(700,300,Qt.KeepAspectRatio)
-        self.label.setPixmap(self.pixmap.scaled(1600,900,Qt.KeepAspectRatio))
+        self.label.setPixmap(self.pixmap.scaled(700,900,Qt.KeepAspectRatio))
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setMaximumSize(700,300)
 
